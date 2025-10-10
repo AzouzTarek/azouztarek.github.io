@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  cv-web:
+    image: azouztarek/cv:v1  
+    container_name: cv-tarek
+    ports:
+      - "8005:80"            
+   
